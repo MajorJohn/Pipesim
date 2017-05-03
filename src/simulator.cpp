@@ -320,8 +320,6 @@ Pipesim::simCollisions()
 		}
 	}
 
-	//int bosta;
-
 	_iPipeline[0] = 0;
 	_iCycle++;
 
@@ -332,8 +330,6 @@ Pipesim::simCollisions()
 		_iCycle++;
 
 		//printR();
-
-		//cin >> bosta;
 	}
 
 	while(	_iPipeline[0] != -1 ||
@@ -346,7 +342,6 @@ Pipesim::simCollisions()
 		printStage();
 		updatePipe();
 		_iCycle++;
-		//cin >> bosta;
 	}
 	cout << "-------------------------------------------------------\n";
 }
@@ -428,13 +423,10 @@ Pipesim::updatePipe()
 	if(	_iPipeline[4] != -1 &&
 		_tCode[_iPipeline[4]].type != 2 &&
 		_tCode[_iPipeline[4]].type != 3 &&
-		_tCode[_iPipeline[4]].type != 4 &&
 		_tCode[_iPipeline[4]].type != 5 
 		)
 		freeCollision(_iPipeline[4]);
 
-	else if (_tCode[_iPipeline[3]].type == 4)
-		freeCollision(_iPipeline[3]);
 
 	for (int i = 4; i > 1; --i)
 	{
@@ -569,25 +561,3 @@ Pipesim::printPipe()
 	}
 	cout << "\n";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
