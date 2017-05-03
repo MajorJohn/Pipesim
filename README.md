@@ -21,6 +21,7 @@ How to test:
 ps.:
 the code need to be writen like this
 
+
 add $t0, $zero, $v0
 add $t1, $t0, $t2
 
