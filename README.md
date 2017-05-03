@@ -22,7 +22,6 @@ ps.:
 the code need to be writen like this
 
 add $t0, $zero, $v0
-
 add $t1, $t0, $t2
 sub $s0, $t3, $t1
 lw $t4, 4($s0)
