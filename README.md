@@ -44,3 +44,7 @@ the code need to be writen like this
 with out the "header" and with out spaces.
 and the Label need to be alone in a line
 
+# Not implemented:
+
+	- lw free the register in the mem
+	- foward
