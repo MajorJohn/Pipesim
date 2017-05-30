@@ -46,5 +46,4 @@ and the Label need to be alone in a line
 
 # Not implemented:
 
-	- lw free the register in the mem
 	- foward
